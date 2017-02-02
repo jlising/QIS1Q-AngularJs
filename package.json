@@ -1,0 +1,16 @@
+{
+  "name": "QIS1Q-AngularJs",
+  "version": "1.0.0",
+  "description": "AngularJs 1 Training",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-index": "^1.8.0"
+  },
+  "author": "Jess Lising",
+  "license": "ISC"
+}

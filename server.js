@@ -1,7 +1,7 @@
 var express = require('express'),
 	serveIndex = require('serve-index'),
     app = express(),
-    port = 3000;
+    port = 8080;
 
 app.use(serveIndex(__dirname,{'icons': true}));
 app.use(express.static(__dirname));
